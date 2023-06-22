@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600&family=Inter:wght@100&family=Open+Sans:wght@500&family=PT+Sans:ital@1&family=Red+Hat+Display:wght@300&family=Roboto:wght@100;300;400;700&family=Rubik:wght@300;400&family=Signika+Negative&family=Silkscreen&display=swap');
+.mapping{
+  font-family: 'Open Sans';
+}
+.text-color{
+  color: #878787;
+  font-size: 12px;
+  font-weight: 500;
+}
+span{
+ font-size: 21px;
+}
+
+.map-image {
+  position: relative;
+}
+
+.like-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+}
+.button{
+  background-color: #F31D1D;
+  color: white;
+}
+.title{
+  font-size: 12px;
+  font-weight: 600;
+  font-weight: 'Open Sans';
+}
+.hero-border{
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  border-radius: 1rem;
+}
+.mx{
+  margin-left: 5rem;
+}
+.space{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 0.3rem;
+}
+
+
+
+@media(max-width:425px){
+  
+  .space{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+}
+
+@media(min-width:768px){
+  .veggies img{
+    width: 25px;
+  }
+  .title{
+    width: 120%;
+  }
+  .jazzy{
+    width: 105%;
+  }
+}
+/* @media screen and (max-width:992px) {
+  .double{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and(min-width:995px) {
+  .double{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+}
+@media screen and(max-width:425px) {
+  .double{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  
+} */
