@@ -11,6 +11,7 @@ import naira from '../images/naira.png'
 import donjazzy from '../images/donjazy.png'
 import axios from 'axios'
 import '../styles/Hero.css'
+// import { Link } from 'react-router-dom'
 
 
 const Hero = () => {
@@ -41,13 +42,13 @@ const Hero = () => {
               <div key={_id} className=' mt-4 hero-border'>
               <div className='relative '>
               <div className='map-image '>
-                <img className='w-100 fetch-img' src={image} alt="" />
+              <img className='w-100 fetch-img' src={image} alt="" />
                 <img className='like-icon' src={likeicon} alt="" />
               </div>
               </div>
              <div className='p-3'>
              <p className='title'>{title}</p>
-             <p  className='text-color ' >Total Price</p>
+             <p  className='text-color'>Total Price</p>
               <div > 
                 <img className='naira pb-1' src={naira} alt="" /><span >{price}</span>
               </div>

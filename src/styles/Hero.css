@@ -40,7 +40,9 @@ span{
 .space{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 0.3rem;
+  /* gap: 0.3rem; */
+  grid-row-gap: 50px;
+  grid-column-gap: 10px;
 }
 
 

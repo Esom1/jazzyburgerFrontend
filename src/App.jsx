@@ -8,6 +8,7 @@ import Footer from './layout/footer';
 import Home from './pages/Home';
 
 
+
 function App() {
   
   return (
@@ -16,7 +17,6 @@ function App() {
     <Navbar/>
     <Routes>
       <Route index element={<Home/>}/>
-
     </Routes>
     <Footer/>
     </BrowserRouter>
